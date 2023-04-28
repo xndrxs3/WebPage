@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: #FCC8D1;
+  padding: 10px 0;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid transparent;
+  box-shadow: 1px 1px 10px 0 rgba(0,0,0,.2);
+  
+}
+
+.nav-enlaces{
+  background-color: #FCC8D1;
+  padding: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  height: 20%;
+  border-radius: 15px;
+  border-bottom: 1px solid transparent;
+  box-shadow: #000000;
+
+}
+.nav-enlaces:hover{
+  background-color: #FFABAB;
+  transition: all ease-in-out .5s;
+}
+
+
+
+
+/* ROPA IMAGENES E INFORMACION */
+
+
+
+
+.section-ropa{
+  background-color: #FCC8D1;
+  padding: 150PX;
+}
+.section-ropa .tittle{
+  display: block;
+  margin: 15px 0;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.content-ropa{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 30px;
+}
+.ropa{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  margin: 5px;
+
+}
+.ropa:hover{
+  background-color: #FCC8D1;
+  box-shadow: 0 0 8px #5d6678;
+  transition: all ease-in-out .4s;
+  color: #fff;
+}
+.content-ropa .ropa a{
+  color: #939eb4;
+  font-size: 12px;
+  text-decoration: none;
+}
