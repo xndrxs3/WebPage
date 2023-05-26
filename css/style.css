@@ -2,11 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: none;
 }
 nav{
   background-color: #FCC8D1;
-  padding: 10px 0;
-  margin: 10px;
+  padding: 10px;
+  margin: 10px 0px 0px 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,13 +33,46 @@ nav{
   transition: all ease-in-out .5s;
 }
 
+/* Entrada */
 
+.contenedor-principal{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  box-shadow: #939eb4;
+  margin: 30px 10px;
+  padding: 20px 150px 150px 150px;
+}
+.textos-principal h1{
+font-size: 70px;
+margin-bottom: 70px;
+text-shadow: 0px 5px 15px rgba(0,0,0,.25);
+}
+.parrafo-principal{
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.parrafo-principal  img{
+display: flex;
+width: 230px;
+height: 230px;
+}
+.textos-principal strong{
+  color: #6a15b4;
+  text-shadow: 0px 5px 15px rgba(0,0,0,.25);
+}
+.textos-principal strong:hover{
+  text-shadow: red -3px 0, cyan 3px 0; 
+  transition: all ease-in-out .4s;
+}
 
 
 /* ROPA IMAGENES E INFORMACION */
-
-
-
 
 .section-ropa{
   background-color: #FCC8D1;
@@ -56,13 +90,25 @@ nav{
   flex-wrap: wrap;
   justify-content: space-around;
   padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
 }
 .ropa{
   background-color: #fff;
   border-radius: 8px;
   padding: 30px;
   margin: 5px;
-
+  display: grid;
+  justify-content: center;
+  align-items: end;
+  justify-items: center;
+  width: 30%;
+}
+.ropa img{
+  width: 300px;
+  display: flex;
 }
 .ropa:hover{
   background-color: #FCC8D1;
