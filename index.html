@@ -8,7 +8,7 @@
     <title>RelaxedLine Brand</title>
     <link rel="icon" href="/img/Logo.jpg" type="png">
     <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
 </head>
@@ -16,24 +16,23 @@
 <body>
     <!-- este es el header -->
 <header>
-
     <div class="header">
-        <nav>
-            <section>            
-            <a href="#" class="nav-enlaces">Inicio</a>
-            <a href="#" class="nav-enlaces">Contacto</a>
-            <a href="#" class="nav-enlaces">Servicios</a>
-            <a href="#" class="nav-enlaces">Nosotros</a>
-            </section>
+        <nav>    
+            <img src="/img/imgHEADER.jpg" alt="">       
+            <a href="#inicio" class="nav-enlaces">Inicio</a>
+            <a href="#NuestraRopa" class="nav-enlaces">Nuestra Ropa</a>
+            <a href="#detalles" class="nav-enlaces">Detalles</a>
+            <a href="#contactos" class="nav-enlaces">Contactos</a>
         </nav>
     </div>
 </header>
 <!-- Section principal -->
 
 
-<div class="contenedor-principal">
+<div class="contenedor-principal" id="inicio">
+    <img src="/img/top-circle.svg" alt="" class="bg-img bg-img--top">
+    <img src="/img/bottom-circle.svg" alt="" class="bg-img bg-img--bottom">
     <section class="contenido-principal">
-        
         <section class="textos-principal">
             <h1>Bienvenido a <strong>RelaxedLine Brand!</strong></h1>
             <div class="parrafo-principal">
@@ -50,35 +49,130 @@
 
 
 
-    <section class="section-ropa">
+    <section class="section-ropa" id="NuestraRopa">
         <div class="contenedor">
             <div class="tittle">
-                <h2>ROPA</h2>
+                <h2><span>NUESTRA</span> ROPA</h2>
             </div>
             <div class="content-ropa">
                 <div class="ropa">
                     <h3>Camisetas basicas</h3>
                     <img src="/img/Basicas.png" alt="">
                     <p>"Amplifica tu estilo con nuestras camisetas oversize únicas y versátiles".</p>
-                    <a href="#" target="_blank">Ver más</a>
+                    <a href="#" target="_blank" class="btn">Ver más</a>
                 </div>
                 <div class="ropa">
                     <h3>Pantalones</h3>
                     <img src="/img/cargo.png" alt="">
                     <p>"Estilo único para ti, en cada pantalón".</p>
-                    <a href="#" target="_blank">Ver más</a>
+                    <a href="#" target="_blank" class="btn">Ver más</a>
                 </div>
                 <div class="ropa">
                     <h3>Camisetas con diseño</h3>
                     <img src="/img/Diseño.png" alt="">
                     <p>"Expresa tu estilo sin límites, con nuestras camisetas estampadas oversize únicas y exclusivas".</p>
-                    <a href="#" target="_blank">Ver más</a>
+                    <a href="#" target="_blank" class="btn">Ver más</a>
                 </div>
             </div>
         </div>
        </section>
 
+       <!-- Detalles -->
+
+       <section class="detalles" id="detalles">
+        <h1 class="heading">detalles</h1>
+        <div class="caja-contenedor">
+            <div class="caja">
+                <h3>Diseño innovador y único</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores vitae facere earum ea nam et id beatae tempora sunt dolorem, laudantium ducimus provident sit. Incidunt enim nam quam inventore corrupti?</p>
+                <a href="#" class="btn">Ver mas</a>
+            </div>
+            <div class="caja">
+                <h3>Materiales de alta calidad</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores vitae facere earum ea nam et id beatae tempora sunt dolorem, laudantium ducimus provident sit. Incidunt enim nam quam inventore corrupti?</p>
+                <a href="#" class="btn">Ver mas</a>
+            </div>
+            <div class="caja">
+                <h3>Detalles exclusivos y personalizados</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores vitae facere earum ea nam et id beatae tempora sunt dolorem, laudantium ducimus provident sit. Incidunt enim nam quam inventore corrupti?</p>
+                <a href="#" class="btn">Ver mas</a>
+            </div>
+        </div>
+       </section>
+
+              <!-- SUSCRIBETE -->
+       <div class="suscribete">
+        <h3>SUSCRIBETE PARA TENER MAS NOVEDADES</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque molestias, praesentium itaque beatae laudantium veniam qui! Magnam eaque ea similique voluptatum? Culpa consequatur porro nostrum eius! Illum sequi ab fugiat.</p>
+        <form action="">
+            <input type="email" placeholder="Ingresa tu email">
+            <input type="submit" value="suscribete">
+        </form>
+       </div>
+
+              <!-- CONTACTOS -->
+       <section class="contactos" id="contactos">
+        <div class="image">
+            <img src="img/form-img.jpg" alt="">
+        </div>
+        <form action="">
+            <h1 class="heading">Contactos</h1>
+            <div class="inputcaja">
+                <input type="text" required>
+                <label for="">Nombre</label>
+            </div>
+            <div class="inputcaja">
+                <input type="email" required>
+                <label for="">email</label>
+            </div>
+            <div class="inputcaja">
+                <input type="number" required>
+                <label for="">Telefono</label>
+            </div>
+            <div class="inputcaja">
+                <textarea required name="" id="" cols="30" rows="10"></textarea>
+                <label for="">mensaje</label>
+            </div>
+
+            <input type="subm" class="btn" value="ENVIAR">
+        </form>
+       </section>
+
+       <!-- footer -->
+
+       <div class="footer">
+        <div class="caja-contenedor">
+            <div class="caja">
+                <h3>noticias e INFORMACION</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga iusto itaque minus eligendi architecto modi delectus nisi voluptatem velit earum unde porro ipsum pariatur magni obcaecati, voluptates quaerat maxime dignissimos.</p>
+            </div>
+            <div class="caja">
+                <h3>Buscanos en</h3>
+                <a href="">Facebook</a>
+                <a href="">instagram</a>
+                <a href="">pinterest</a>
+                <a href="">twitter</a>
+            </div>
+
+            <div class="caja">
+                <h3>mas INFORMACION</h3>
+                <div class="info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>123-456-789 <br> 123-756-908</p>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-envelope"></i>
+                    <p>RelaxedLine@gmail.com</p>
+                </div>
+                <div class="info">
+                    <i class="fa-solid fa-map-marker-alt"></i>
+                    <p>Ocaña, Colombia <br> 546551 </p>
+                </div>
+            </div>
+        </div>
+        <h1 class="creditos">
+            &copy, copyright @ 2023 Andres Perez GitHub
+       </h1>
+       </div>
 </body>
-
-
 </html>
